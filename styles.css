@@ -1,0 +1,72 @@
+
+body {
+background: url(https://bayguzin.ru/assets/images/2014/04/kvadratiki.jpg);
+color: #FFF8DC;
+}
+
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+	font-family: times new roman;
+}
+
+ol{
+	font-weight: bold;
+}
+
+.may{
+	animation-duration: 7s;
+	animation-name: slidein;
+	align-content: center;
+	}
+
+@keyframes slidein {
+	from{
+		margin-left: 100%;
+		width: 300%;
+	}
+
+	to{
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+
+.vadim {
+	/*text-align: center;*/
+	color: white;
+}
+
+.text {
+	color: red;
+}
+
+.vivo {
+	width: 300px;
+	height: 200px;
+	position: center;
+	animation: scale 10s infinite;
+	position: center;
+	top: 10%;
+	left: 20%;
+	transform: translate(-30%, -40%);
+}
+
+@keyframes scale {
+	{
+		transform: scaleX(0) scaleY(0);
+	}
+	100% {
+		transform: scaleX(1) scaleY(1);
+	}
+}	
+
+.text1 {
+	position: center;
+}
